@@ -1,4 +1,5 @@
 "use client"
+import Link from "next/link"
 
 export default function Footer() {
   return (
@@ -75,9 +76,9 @@ export default function Footer() {
                 </a>
               </li>
               <li>
-                <a href="#" className="transition hover:text-blue-500">
+                <Link href="/privacy" className="transition hover:text-blue-500">
                   Privacy Policy
-                </a>
+                </Link>
               </li>
               <li>
                 <a href="#" className="transition hover:text-blue-500">

@@ -4,6 +4,7 @@ import PricingSection from "@/components/PricingSection";
 import StatsCard from "@/components/Stats";
 import Testimonial from "@/components/Testimonial";
 
+
 export default function Home() {
   return (
     <main className="bg-white">
@@ -256,7 +257,10 @@ export default function Home() {
       {/* Stats Card */}
       <StatsCard />
       {/* What our Users Say */}
+      <div id="testimonial">
+
       <Testimonial />
+      </div>
       {/* CTA */}
       <section className="relative overflow-hidden bg-indigo-600 px-4 py-24 sm:px-6 lg:px-8">
         <div className="absolute left-1/2 top-0 h-80 w-80 -translate-x-1/2 -translate-y-1/2 rounded-full bg-black/10 blur-3xl" />

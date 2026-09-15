@@ -2,6 +2,7 @@
 "use client";
 
 import { useEffect } from "react";
+import Link from "next/link"
 
 export default function Navbar() {
   useEffect(() => {
@@ -59,7 +60,7 @@ export default function Navbar() {
       className="fixed left-0 top-0 z-50 w-full bg-transparent px-6 py-4 transition-all duration-300"
     >
       <div className="mx-auto flex max-w-7xl items-center justify-between">
-        <a href="#" className="flex items-center gap-2">
+        <Link href="/" className="flex items-center gap-2">
           <img
             src="/images/logo.png"
             alt="MoneyTrack logo"
@@ -72,29 +73,29 @@ export default function Navbar() {
           >
             MoneyTrack
           </span>
-        </a>
+        </Link>
 
         <div className="hidden items-center gap-8 md:flex">
-          <a
+          <Link
             href="#"
             className="nav-link text-xs font-medium text-gray-600 transition hover:text-blue-700"
           >
             About
-          </a>
+          </Link>
 
-          <a
+          <Link
             href="#"
             className="nav-link text-xs font-medium text-gray-600 transition hover:text-blue-700"
           >
             Product
-          </a>
+          </Link>
 
-          <a
-            href="#"
+          <Link
+            href="/#testimonial"
             className="nav-link text-xs font-medium text-gray-600 transition hover:text-blue-700"
           >
             Testimonial
-          </a>
+          </Link>
 
           <a
             href="#"
