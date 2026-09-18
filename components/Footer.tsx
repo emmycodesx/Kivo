@@ -81,7 +81,7 @@ export default function Footer() {
                 </Link>
               </li>
               <li>
-                <a href="#" className="transition hover:text-blue-500">
+                <a href="/terms" className="transition hover:text-blue-500">
                   Terms of Service
                 </a>
               </li>

@@ -1,5 +1,4 @@
-"use client"
-
+import type { Metadata } from "next";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer"
 import {
@@ -8,6 +7,13 @@ import {
   Database,
   SlidersHorizontal,
 } from "lucide-react";
+
+
+export const metadata: Metadata = {
+  title: "Privacy Policy | MoneyTrack",
+  description: "Read the privacy policy for MoneyTrack.",
+};
+
 
 export default function PrivacyPage() {
   return (
