@@ -461,7 +461,7 @@ export default function PrivacyPage() {
               />
 
               <PolicyText>
-                We may update this Privacy Policy when MoneyTrack's features,
+                We may update this Privacy Policy when MoneyTrack&apos;s features,
                 technology, data practices, or legal requirements change.
               </PolicyText>
 

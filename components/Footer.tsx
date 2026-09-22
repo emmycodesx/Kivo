@@ -32,7 +32,7 @@ export default function Footer() {
 
             <ul className="mt-2 space-y-2 text-sm text-gray-400">
               <li>
-                <a href="#" className="transition hover:text-blue-500">
+                <a href="#features" className="transition hover:text-blue-500">
                   Features
                 </a>
               </li>
@@ -61,7 +61,7 @@ export default function Footer() {
 
             <ul className="mt-2 space-y-2 text-sm text-gray-400">
               <li>
-                <a href="#" className="transition hover:text-blue-500">
+                <a href="/about" className="transition hover:text-blue-500">
                   About Us
                 </a>
               </li>

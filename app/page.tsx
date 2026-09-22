@@ -3,6 +3,7 @@ import Footer from "@/components/Footer";
 import PricingSection from "@/components/PricingSection";
 import StatsCard from "@/components/Stats";
 import Testimonial from "@/components/Testimonial";
+import Features from "@/components/Features"
 
 
 export default function Home() {
@@ -252,6 +253,10 @@ export default function Home() {
           </div>
         </div>
       </section>
+       {/*Features section  */}
+       <section id="featurs" className="mx-auto px-6 py-24">
+         <Features/>
+       </section>
       {/* Pricing Section */}
       <PricingSection />
       {/* Stats Card */}

@@ -77,7 +77,7 @@ export default function Navbar() {
 
         <div className="hidden items-center gap-8 md:flex">
           <Link
-            href="#"
+            href="/about"
             className="nav-link text-xs font-medium text-gray-600 transition hover:text-blue-700"
           >
             About
