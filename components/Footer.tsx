@@ -15,7 +15,7 @@ export default function Footer() {
               />
 
               <span className="text-xl font-bold">
-                Money<span className="text-blue-500">Track</span>
+                Kivo
               </span>
             </div>
 
@@ -119,7 +119,7 @@ export default function Footer() {
         <div className="flex flex-col gap-3 py-6 md:flex-row md:items-center md:justify-between">
           <div>
             <p className="text-sm text-gray-400">
-              &copy; 2026 MoneyTrack. All rights reserved.
+              &copy; 2026 Kivo. All rights reserved.
             </p>
           </div>
 

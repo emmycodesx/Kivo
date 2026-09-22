@@ -10,8 +10,8 @@ import {
 
 
 export const metadata: Metadata = {
-  title: "Privacy Policy | MoneyTrack",
-  description: "Read the privacy policy for MoneyTrack.",
+  title: "Privacy Policy | Kivo",
+  description: "Read the privacy policy for Kivo.",
 };
 
 
@@ -31,7 +31,7 @@ export default function PrivacyPage() {
           </h1>
 
           <p className="mt-6 max-w-2xl text-lg leading-8 text-zinc-600">
-            MoneyTrack is designed to help you understand and organize your
+           Kivo is designed to help you understand and organize your
             finances while keeping your information handled responsibly.
           </p>
 
@@ -62,7 +62,7 @@ export default function PrivacyPage() {
         </h3>
 
         <p className="mt-2 text-sm leading-7 text-zinc-400">
-          Depending on how MoneyTrack is implemented, information may include
+          Depending on how Kivo is implemented, information may include
           your name, email address, transactions, income and expense records,
           budgets, savings goals, and basic application preferences.
         </p>
@@ -80,7 +80,7 @@ export default function PrivacyPage() {
         </h3>
 
         <p className="mt-2 text-sm leading-7 text-zinc-400">
-          MoneyTrack does not sell or rent your personal information. The
+          Kivo does not sell or rent your personal information. The
           current version also does not connect to real bank accounts, payment
           providers, or external financial accounts.
         </p>
@@ -131,22 +131,22 @@ export default function PrivacyPage() {
             </h2>
 
             <section id="about" className="mt-14">
-              <PolicyHeading number="1" title="About MoneyTrack" />
+              <PolicyHeading number="1" title="About Kivo" />
 
               <PolicyText>
-                MoneyTrack is a personal finance tracking application designed
+                Kivo is a personal finance tracking application designed
                 to help users organize simulated information relating to
                 income, expenses, budgets, savings goals, and transactions.
               </PolicyText>
 
               <PolicyText>
-                MoneyTrack is currently a frontend application and does not
+                Kivo is currently a frontend application and does not
                 connect to real bank accounts, payment providers, or external
                 financial accounts.
               </PolicyText>
 
               <PolicyText>
-                MoneyTrack does not process payments or move money on behalf
+                Kivo does not process payments or move money on behalf
                 of users.
               </PolicyText>
             </section>
@@ -158,7 +158,7 @@ export default function PrivacyPage() {
               />
 
               <PolicyText>
-                Depending on how the application is implemented, MoneyTrack
+                Depending on how the application is implemented, Kivo
                 may collect or store information such as:
               </PolicyText>
 
@@ -181,7 +181,7 @@ export default function PrivacyPage() {
                   You should not enter sensitive banking credentials, debit or
                   credit card numbers, bank account passwords, or other highly
                   sensitive financial information into the current version of
-                  MoneyTrack.
+                  Kivo.
                 </p>
               </div>
             </section>
@@ -193,7 +193,7 @@ export default function PrivacyPage() {
               />
 
               <PolicyText>
-                MoneyTrack allows users to enter financial information for
+                Kivo allows users to enter financial information for
                 personal organization and demonstration purposes.
               </PolicyText>
 
@@ -215,7 +215,7 @@ export default function PrivacyPage() {
               />
 
               <PolicyText>
-                The current version of MoneyTrack uses simulated financial
+                The current version of Kivo uses simulated financial
                 data and browser-based storage. It does not retrieve
                 information directly from financial institutions.
               </PolicyText>
@@ -228,7 +228,7 @@ export default function PrivacyPage() {
               />
 
               <PolicyText>
-                Information provided to MoneyTrack may be used to:
+                Information provided to Kivo may be used to:
               </PolicyText>
 
               <PolicyList
@@ -257,7 +257,7 @@ export default function PrivacyPage() {
               />
 
               <PolicyText>
-                The current version of MoneyTrack may use your browser's
+                The current version of Kivo may use your browser&apos;s
                 localStorage to save application data.
               </PolicyText>
 
@@ -274,7 +274,7 @@ export default function PrivacyPage() {
               <PolicyList
                 items={[
                   "Your data may not automatically synchronize across devices.",
-                  "Clearing your browser's storage may remove your MoneyTrack data.",
+                  "Clearing your browser's storage may remove your Kivo data.",
                   "Other people who have access to your device or browser profile may potentially access locally stored information.",
                   "Local storage should not be considered a secure replacement for a production financial database.",
                 ]}
@@ -294,7 +294,7 @@ export default function PrivacyPage() {
               />
 
               <PolicyText>
-                The current version of MoneyTrack may not require cookies for
+                The current version of Kivo may not require cookies for
                 its core functionality.
               </PolicyText>
 
@@ -313,7 +313,7 @@ export default function PrivacyPage() {
               />
 
               <PolicyText>
-                MoneyTrack may eventually use third-party services for
+                Kivo may eventually use third-party services for
                 functions such as hosting, authentication, analytics, email
                 delivery, or application infrastructure.
               </PolicyText>
@@ -337,7 +337,7 @@ export default function PrivacyPage() {
               />
 
               <PolicyText>
-                MoneyTrack does not sell or rent your personal information.
+                Kivo does not sell or rent your personal information.
               </PolicyText>
 
               <PolicyText>
@@ -348,7 +348,7 @@ export default function PrivacyPage() {
                 items={[
                   "Provide or maintain the service",
                   "Use a third-party service required to operate the application",
-                  "Protect the security of MoneyTrack",
+                  "Protect the security of Kivo",
                   "Comply with applicable legal obligations",
                   "Respond to lawful requests from authorities",
                 ]}
@@ -372,7 +372,7 @@ export default function PrivacyPage() {
               </PolicyText>
 
               <PolicyText>
-                The current practice version of MoneyTrack should not be used
+                The current practice version of Kivo should not be used
                 to store highly sensitive financial credentials or information.
               </PolicyText>
             </section>
@@ -384,7 +384,7 @@ export default function PrivacyPage() {
               />
 
               <PolicyText>
-                Depending on the version of MoneyTrack you use, information may
+                Depending on the version of Kivo you use, information may
                 remain stored until:
               </PolicyText>
 
@@ -398,7 +398,7 @@ export default function PrivacyPage() {
               />
 
               <PolicyText>
-                If a future cloud-based version of MoneyTrack is introduced,
+                If a future cloud-based version of Kivo is introduced,
                 additional data retention and deletion procedures may apply.
               </PolicyText>
             </section>
@@ -410,7 +410,7 @@ export default function PrivacyPage() {
               />
 
               <PolicyText>
-                MoneyTrack is not specifically designed for children.
+                Kivo is not specifically designed for children.
               </PolicyText>
 
               <PolicyText>
@@ -449,7 +449,7 @@ export default function PrivacyPage() {
 
               <PolicyText>
                 If you have questions about your information, you may contact
-                us using the contact information provided on the MoneyTrack
+                us using the contact information provided on the Kivo
                 website.
               </PolicyText>
             </section>
@@ -461,13 +461,13 @@ export default function PrivacyPage() {
               />
 
               <PolicyText>
-                We may update this Privacy Policy when MoneyTrack&apos;s features,
+                We may update this Privacy Policy when Kivo&apos;s features,
                 technology, data practices, or legal requirements change.
               </PolicyText>
 
               <PolicyText>
                 When significant changes are made, the updated policy will be
-                made available through the MoneyTrack website.
+                made available through the Kivo website.
               </PolicyText>
 
               <PolicyText>
@@ -483,14 +483,14 @@ export default function PrivacyPage() {
               />
 
               <PolicyText>
-                Questions about privacy email @<span className="text-indigo-600">privacy@moneytrack.com</span>
+                Questions about privacy email @<span className="text-indigo-600">privacy@kivo.com</span>
               </PolicyText>
 
               
 
               <div className="mt-10 border-t border-black/10 pt-8">
                 <p className="text-sm leading-7 text-zinc-600">
-                  MoneyTrack is a practice financial management application.
+                  Kivo is a practice financial management application.
                   It is not a bank, payment processor, investment platform, or
                   financial institution.
                 </p>

@@ -71,7 +71,7 @@ export default function Navbar() {
             id="logo-text"
             className="text-sm font-bold tracking-tight text-gray-900"
           >
-            MoneyTrack
+            Kivo
           </span>
         </Link>
 
@@ -84,10 +84,10 @@ export default function Navbar() {
           </Link>
 
           <Link
-            href="#"
+            href="#features"
             className="nav-link text-xs font-medium text-gray-600 transition hover:text-blue-700"
           >
-            Product
+            Features
           </Link>
 
           <Link

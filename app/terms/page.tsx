@@ -4,8 +4,8 @@ import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
-  title: "Terms | MoneyTrack",
-  description: "Read the Terms of Service for MoneyTrack.",
+  title: "Terms | Kivo",
+  description: "Read the Terms of Service for Kivo.",
 };
 
 export default function TermsPage() {
@@ -21,11 +21,11 @@ export default function TermsPage() {
           </p>
 
           <h1 className="max-w-4xl text-4xl font-bold tracking-tight sm:text-5xl lg:text-6xl">
-            Here&apos;s how MoneyTrack works.
+            Here&apos;s how Kivo works.
           </h1>
 
           <p className="mt-6 max-w-2xl text-lg leading-8 text-zinc-600">
-            These terms explain how you can use MoneyTrack, what you can expect
+            These terms explain how you can use Kivo, what you can expect
             from the platform, and the responsibilities that come with using it.
           </p>
 
@@ -44,7 +44,7 @@ export default function TermsPage() {
             </h2>
 
             <p className="mt-4 text-base leading-7 text-zinc-600">
-              The important things to know before using MoneyTrack.
+              The important things to know before using Kivo.
             </p>
           </div>
 
@@ -52,7 +52,7 @@ export default function TermsPage() {
             <div className="rounded-2xl border border-zinc-200 bg-zinc-50 p-6">
               <span className="text-sm font-bold text-indigo-600">01</span>
               <h3 className="mt-4 text-base font-semibold">
-                Use MoneyTrack responsibly
+                Use Kivo responsibly
               </h3>
               <p className="mt-2 text-sm leading-6 text-zinc-600">
                 You agree to provide accurate information and use the
@@ -66,7 +66,7 @@ export default function TermsPage() {
                 Your financial information is your responsibility
               </h3>
               <p className="mt-2 text-sm leading-6 text-zinc-600">
-                MoneyTrack helps you organize financial information, but you are
+                Kivo helps you organize financial information, but you are
                 responsible for the accuracy of the information you enter.
               </p>
             </div>
@@ -74,7 +74,7 @@ export default function TermsPage() {
             <div className="rounded-2xl border border-zinc-200 bg-zinc-50 p-6">
               <span className="text-sm font-bold text-indigo-600">03</span>
               <h3 className="mt-4 text-base font-semibold">
-                MoneyTrack is not financial advice
+                Kivo is not financial advice
               </h3>
               <p className="mt-2 text-sm leading-6 text-zinc-600">
                 The platform is designed for tracking and organization. It does
@@ -89,7 +89,7 @@ export default function TermsPage() {
                 No real financial transactions
               </h3>
               <p className="mt-2 text-sm leading-6 text-zinc-600">
-                The current version of MoneyTrack uses simulated financial data
+                The current version of Kivo uses simulated financial data
                 and does not process real bank transactions or payments.
               </p>
             </div>
@@ -106,7 +106,7 @@ export default function TermsPage() {
             </h2>
 
             <p className="mt-4 text-base leading-7 text-zinc-600">
-              Please read these terms carefully before using MoneyTrack.
+              Please read these terms carefully before using Kivo.
             </p>
           </div>
 
@@ -114,9 +114,9 @@ export default function TermsPage() {
             {/* 1 */}
             <section>
               <p className="text-sm font-bold text-indigo-600">01</p>
-              <h3 className="mt-2 text-xl font-bold">About MoneyTrack</h3>
+              <h3 className="mt-2 text-xl font-bold">About Kivo</h3>
               <p className="mt-4 text-sm leading-7 text-zinc-600">
-                MoneyTrack is a personal finance tracking application designed
+                Kivo is a personal finance tracking application designed
                 to help users organize and monitor financial information such as
                 income, expenses, transactions, budgets, savings goals, and
                 spending habits.
@@ -128,7 +128,7 @@ export default function TermsPage() {
               <p className="text-sm font-bold text-indigo-600">02</p>
               <h3 className="mt-2 text-xl font-bold">Eligibility</h3>
               <p className="mt-4 text-sm leading-7 text-zinc-600">
-                By using MoneyTrack, you confirm that you are legally able to
+                By using Kivo, you confirm that you are legally able to
                 enter into these Terms of Service and that the information you
                 provide when using the application is accurate and complete.
               </p>
@@ -151,7 +151,7 @@ export default function TermsPage() {
               <p className="text-sm font-bold text-indigo-600">04</p>
               <h3 className="mt-2 text-xl font-bold">Acceptable Use</h3>
               <p className="mt-4 text-sm leading-7 text-zinc-600">
-                You agree to use MoneyTrack responsibly and lawfully. You must
+                You agree to use Kivo responsibly and lawfully. You must
                 not misuse the platform, attempt to interfere with its
                 operation, gain unauthorized access, or use the service for
                 unlawful activities.
@@ -163,9 +163,9 @@ export default function TermsPage() {
               <p className="text-sm font-bold text-indigo-600">05</p>
               <h3 className="mt-2 text-xl font-bold">Financial Information</h3>
               <p className="mt-4 text-sm leading-7 text-zinc-600">
-                MoneyTrack allows you to enter and organize financial
+                Kivo allows you to enter and organize financial
                 information. You are responsible for ensuring that the
-                information you enter is accurate. MoneyTrack does not verify
+                information you enter is accurate. Kivo does not verify
                 the accuracy of manually entered financial information.
               </p>
             </section>
@@ -175,7 +175,7 @@ export default function TermsPage() {
               <p className="text-sm font-bold text-indigo-600">06</p>
               <h3 className="mt-2 text-xl font-bold">No Financial Advice</h3>
               <p className="mt-4 text-sm leading-7 text-zinc-600">
-                MoneyTrack is intended as a financial tracking and organization
+                Kivo is intended as a financial tracking and organization
                 tool. Nothing provided through the application should be
                 considered professional financial, investment, tax, or legal
                 advice.
@@ -189,7 +189,7 @@ export default function TermsPage() {
                 No Real Financial Transactions
               </h3>
               <p className="mt-4 text-sm leading-7 text-zinc-600">
-                The current version of MoneyTrack does not process real money
+                The current version of Kivo does not process real money
                 transfers, payments, deposits, withdrawals, or other real
                 financial transactions. It also does not connect directly to
                 your real bank account or payment account.
@@ -201,7 +201,7 @@ export default function TermsPage() {
               <p className="text-sm font-bold text-indigo-600">08</p>
               <h3 className="mt-2 text-xl font-bold">Data and Local Storage</h3>
               <p className="mt-4 text-sm leading-7 text-zinc-600">
-                Depending on the version of MoneyTrack you use, financial
+                Depending on the version of Kivo you use, financial
                 information may be stored using browser-based local storage. You
                 are responsible for understanding that clearing browser data or
                 changing devices may affect information stored locally.
@@ -213,7 +213,7 @@ export default function TermsPage() {
               <p className="text-sm font-bold text-indigo-600">09</p>
               <h3 className="mt-2 text-xl font-bold">Availability</h3>
               <p className="mt-4 text-sm leading-7 text-zinc-600">
-                We aim to keep MoneyTrack available and functioning properly,
+                We aim to keep Kivo available and functioning properly,
                 but we do not guarantee that the service will always be
                 available, uninterrupted, secure, or free from errors.
               </p>
@@ -224,7 +224,7 @@ export default function TermsPage() {
               <p className="text-sm font-bold text-indigo-600">10</p>
               <h3 className="mt-2 text-xl font-bold">Intellectual Property</h3>
               <p className="mt-4 text-sm leading-7 text-zinc-600">
-                MoneyTrack and its original content, design, branding, features,
+                Kivo and its original content, design, branding, features,
                 and materials are protected by applicable intellectual property
                 laws. You may not copy, modify, distribute, or reproduce our
                 materials without appropriate permission.
@@ -236,9 +236,9 @@ export default function TermsPage() {
               <p className="text-sm font-bold text-indigo-600">11</p>
               <h3 className="mt-2 text-xl font-bold">Third-Party Services</h3>
               <p className="mt-4 text-sm leading-7 text-zinc-600">
-                MoneyTrack may use or link to third-party services. Those
+                Kivo may use or link to third-party services. Those
                 services operate under their own terms and privacy policies, and
-                MoneyTrack is not responsible for the policies or practices of
+                Kivo is not responsible for the policies or practices of
                 independent third parties.
               </p>
             </section>
@@ -248,7 +248,7 @@ export default function TermsPage() {
               <p className="text-sm font-bold text-indigo-600">12</p>
               <h3 className="mt-2 text-xl font-bold">Disclaimer</h3>
               <p className="mt-4 text-sm leading-7 text-zinc-600">
-                MoneyTrack is provided for personal finance tracking and
+                Kivo is provided for personal finance tracking and
                 organizational purposes. The information and functionality
                 provided through the platform are provided without guarantees
                 that they will always be complete, accurate, or suitable for
@@ -263,7 +263,7 @@ export default function TermsPage() {
                 Limitation of Liability
               </h3>
               <p className="mt-4 text-sm leading-7 text-zinc-600">
-                To the extent permitted by applicable law, MoneyTrack and its
+                To the extent permitted by applicable law, Kivo and its
                 operators will not be responsible for losses or damages
                 resulting from your use of the platform, reliance on information
                 within the platform, or interruptions and technical issues
@@ -276,7 +276,7 @@ export default function TermsPage() {
               <p className="text-sm font-bold text-indigo-600">14</p>
               <h3 className="mt-2 text-xl font-bold">Termination</h3>
               <p className="mt-4 text-sm leading-7 text-zinc-600">
-                We may suspend or terminate access to MoneyTrack if you violate
+                We may suspend or terminate access to Kivo if you violate
                 these Terms or misuse the platform. You may also stop using the
                 service at any time.
               </p>
@@ -290,7 +290,7 @@ export default function TermsPage() {
                 We may update these Terms of Service from time to time. When
                 changes are made, the updated version will be published on this
                 page along with a revised last-updated date. Continued use of
-                MoneyTrack after changes are published means you acknowledge the
+                Kivo after changes are published means you acknowledge the
                 updated Terms.
               </p>
             </section>
@@ -311,7 +311,7 @@ export default function TermsPage() {
               <h3 className="mt-2 text-xl font-bold">Contact</h3>
               <p className="mt-4 text-sm leading-7 text-zinc-600">
                 If you have questions about these Terms of Service or
-                MoneyTrack, please contact the MoneyTrack team through the
+                Kivo, please contact the Kivo team through the
                 official contact channel provided by the application.
               </p>
             </section>

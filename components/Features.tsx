@@ -7,10 +7,14 @@ export default function Features() {
         <div className="py-20 bg-white">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="grid lg:grid-cols-2 gap-14 items-center ">
+              {/* Transaction Tracking Card */}
               <div className="">
                 <div
                   className="inline-flex items-center gap-2 rounded-full px-3 py-1.5 text-xs font-black mb-5"
-                  style={{background: 'rgb(237, 233, 254', color: 'rgb(124, 58, 237'}}
+                  style={{
+                    background: "rgb(237, 233, 254",
+                    color: "rgb(124, 58, 237",
+                  }}
                 >
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -21,8 +25,20 @@ export default function Features() {
                     color="#7C3AED"
                     className=""
                   >
-                    <path d="M5 3h14v18l-3-2-2 2-2-2-2 2-2-2-3 2V3Z" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.5"></path>
-       <path d="M8 8h8M8 12h8M8 16h4" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.5"></path>
+                    <path
+                      d="M5 3h14v18l-3-2-2 2-2-2-2 2-2-2-3 2V3Z"
+                      stroke="currentColor"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth="1.5"
+                    ></path>
+                    <path
+                      d="M8 8h8M8 12h8M8 16h4"
+                      stroke="currentColor"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth="1.5"
+                    ></path>
                   </svg>
                   Transaction Tracking
                 </div>
@@ -30,13 +46,14 @@ export default function Features() {
                   Keep every transaction organized
                 </h2>
                 <p className="text-gray-500 text-lg leading-relaxed mb-8">
-                  Add and manage your income and expenses in one place. Keep your financial activity organized and easy to review.
+                  Add and manage your income and expenses in one place. Keep
+                  your financial activity organized and easy to review.
                 </p>
                 <ul className="space-y-3">
                   <li className="flex items-start gap-3 text-sm text-gray-700">
                     <div
                       className="flex-shrink-0 h-5 w-5 rounded-full flex items-center justify-center mt-0.5"
-                      style={{ background: 'rgb(237, 233, 254)' }}
+                      style={{ background: "rgb(237, 233, 254)" }}
                     >
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
@@ -66,7 +83,7 @@ export default function Features() {
                   <li className="flex items-start gap-3 text-sm text-gray-700">
                     <div
                       className="flex-shrink-0 h-5 w-5 rounded-full flex items-center justify-center mt-0.5"
-                      style={{ background: 'rgb(237, 233, 254)' }}
+                      style={{ background: "rgb(237, 233, 254)" }}
                     >
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
@@ -96,7 +113,7 @@ export default function Features() {
                   <li className="flex items-start gap-3 text-sm text-gray-700">
                     <div
                       className="flex-shrink-0 h-5 w-5 rounded-full flex items-center justify-center mt-0.5"
-                      style={{ background: 'rgb(237, 233, 254)' }}
+                      style={{ background: "rgb(237, 233, 254)" }}
                     >
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
@@ -128,7 +145,7 @@ export default function Features() {
                   <a
                     className="inline-flex items-center gap-2 font-bold text-sm hover:gap-3 transition-all"
                     href="/dashboard"
-                    style={{ color: 'rgb(124, 58, 237)' }}
+                    style={{ color: "rgb(124, 58, 237)" }}
                   >
                     View dashboard{" "}
                     <svg
@@ -155,12 +172,15 @@ export default function Features() {
                 <div className="w-full max-w-sm mx-auto">
                   <div
                     className="rounded-3xl p-8 flex items-center justify-center"
-                    style={{ background: 'rgb(237, 233, 254)', minHeight: '280px' }}
+                    style={{
+                      background: "rgb(237, 233, 254)",
+                      minHeight: "280px",
+                    }}
                   >
                     <div className="text-center">
                       <div
                         className="h-24 w-24 rounded-3xl flex items-center justify-center mx-auto mb-6 shadow-lg"
-                        style={{ background: 'rgb(124, 58, 237)' }}
+                        style={{ background: "rgb(124, 58, 237)" }}
                       >
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
@@ -171,13 +191,25 @@ export default function Features() {
                           color="white"
                           className=""
                         >
-                    <path d="M5 3h14v18l-3-2-2 2-2-2-2 2-2-2-3 2V3Z" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.5"></path>
-       <path d="M8 8h8M8 12h8M8 16h4" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.5"></path>
-                  </svg>
+                          <path
+                            d="M5 3h14v18l-3-2-2 2-2-2-2 2-2-2-3 2V3Z"
+                            stroke="currentColor"
+                            strokeLinecap="round"
+                            strokeLinejoin="round"
+                            strokeWidth="1.5"
+                          ></path>
+                          <path
+                            d="M8 8h8M8 12h8M8 16h4"
+                            stroke="currentColor"
+                            strokeLinecap="round"
+                            strokeLinejoin="round"
+                            strokeWidth="1.5"
+                          ></path>
+                        </svg>
                       </div>
                       <p
                         className="font-black text-xl mb-2"
-                        style={{ color: 'rgb(124, 58, 237)' }}
+                        style={{ color: "rgb(124, 58, 237)" }}
                       >
                         Transaction Tracking
                       </p>
@@ -197,7 +229,10 @@ export default function Features() {
               <div className="lg:order-2">
                 <div
                   className="inline-flex items-center gap-2 rounded-full px-3 py-1.5 text-xs font-black mb-5"
-                  style={{ background: 'rgb(219, 234, 254)', color: 'rgb(37, 99, 235)' }}
+                  style={{
+                    background: "rgb(219, 234, 254)",
+                    color: "rgb(37, 99, 235)",
+                  }}
                 >
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -208,8 +243,20 @@ export default function Features() {
                     color="#2563EB"
                     className=""
                   >
-                    <path d="M4 19V5M4 19h16" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.5"></path>
-       <path d="m7 15 3-4 3 2 5-7" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.5"></path>
+                    <path
+                      d="M4 19V5M4 19h16"
+                      stroke="currentColor"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth="1.5"
+                    ></path>
+                    <path
+                      d="m7 15 3-4 3 2 5-7"
+                      stroke="currentColor"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth="1.5"
+                    ></path>
                   </svg>
                   Spending Insights
                 </div>
@@ -217,13 +264,15 @@ export default function Features() {
                   Understand where your money goes
                 </h2>
                 <p className="text-gray-500 text-lg leading-relaxed mb-8">
-                  See your income, expenses, and spending patterns at a glance. MoneyTrack helps you understand your financial activity more clearly.
+                  See your income, expenses, and spending patterns at a glance.
+                  MoneyTrack helps you understand your financial activity more
+                  clearly.
                 </p>
                 <ul className="space-y-3">
                   <li className="flex items-start gap-3 text-sm text-gray-700">
                     <div
                       className="flex-shrink-0 h-5 w-5 rounded-full flex items-center justify-center mt-0.5"
-                      style={{ background: 'rgb(219, 234, 254)' }}
+                      style={{ background: "rgb(219, 234, 254)" }}
                     >
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
@@ -253,7 +302,7 @@ export default function Features() {
                   <li className="flex items-start gap-3 text-sm text-gray-700">
                     <div
                       className="flex-shrink-0 h-5 w-5 rounded-full flex items-center justify-center mt-0.5"
-                      style={{ background: 'rgb(219, 234, 254)' }}
+                      style={{ background: "rgb(219, 234, 254)" }}
                     >
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
@@ -283,7 +332,7 @@ export default function Features() {
                   <li className="flex items-start gap-3 text-sm text-gray-700">
                     <div
                       className="flex-shrink-0 h-5 w-5 rounded-full flex items-center justify-center mt-0.5"
-                      style={{ background: 'rgb(219, 234, 254)' }}
+                      style={{ background: "rgb(219, 234, 254)" }}
                     >
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
@@ -315,7 +364,7 @@ export default function Features() {
                   <a
                     className="inline-flex items-center gap-2 font-bold text-sm hover:gap-3 transition-all"
                     href="/dashboard"
-                    style={{ color: 'rgb(37, 99, 235)' }}
+                    style={{ color: "rgb(37, 99, 235)" }}
                   >
                     View dashboard{" "}
                     <svg
@@ -342,12 +391,15 @@ export default function Features() {
                 <div className="w-full max-w-sm mx-auto">
                   <div
                     className="rounded-3xl p-8 flex items-center justify-center"
-                    style={{ background: 'rgb(219, 234, 254)', minHeight: '280px' }}
+                    style={{
+                      background: "rgb(219, 234, 254)",
+                      minHeight: "280px",
+                    }}
                   >
                     <div className="text-center">
                       <div
                         className="h-24 w-24 rounded-3xl flex items-center justify-center mx-auto mb-6 shadow-lg"
-                        style={{ background: 'rgb(37, 99, 235)' }}
+                        style={{ background: "rgb(37, 99, 235)" }}
                       >
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
@@ -358,13 +410,25 @@ export default function Features() {
                           color="white"
                           className=""
                         >
-                    <path d="M4 19V5M4 19h16" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.5"></path>
-       <path d="m7 15 3-4 3 2 5-7" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.5"></path>
-                  </svg>
+                          <path
+                            d="M4 19V5M4 19h16"
+                            stroke="currentColor"
+                            strokeLinecap="round"
+                            strokeLinejoin="round"
+                            strokeWidth="1.5"
+                          ></path>
+                          <path
+                            d="m7 15 3-4 3 2 5-7"
+                            stroke="currentColor"
+                            strokeLinecap="round"
+                            strokeLinejoin="round"
+                            strokeWidth="1.5"
+                          ></path>
+                        </svg>
                       </div>
                       <p
                         className="font-black text-xl mb-2"
-                        style={{ color: 'rgb(37, 99, 235)' }}
+                        style={{ color: "rgb(37, 99, 235)" }}
                       >
                         Spending Insights
                       </p>
@@ -385,7 +449,10 @@ export default function Features() {
               <div className="">
                 <div
                   className="inline-flex items-center gap-2 rounded-full px-3 py-1.5 text-xs font-black mb-5"
-                  style={{ background: 'rgb(220, 252, 231)', color: 'rgb(22, 163, 74)' }}
+                  style={{
+                    background: "rgb(220, 252, 231)",
+                    color: "rgb(22, 163, 74)",
+                  }}
                 >
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -396,8 +463,20 @@ export default function Features() {
                     color="#16A34A"
                     className=""
                   >
-                    <path d="M4 7.5A2.5 2.5 0 0 1 6.5 5H20v14H6.5A2.5 2.5 0 0 1 4 16.5v-9Z" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.5"></path>
-       <path d="M4 8h16M15 12h5v4h-5a2 2 0 0 1 0-4Z" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.5"></path>
+                    <path
+                      d="M4 7.5A2.5 2.5 0 0 1 6.5 5H20v14H6.5A2.5 2.5 0 0 1 4 16.5v-9Z"
+                      stroke="currentColor"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth="1.5"
+                    ></path>
+                    <path
+                      d="M4 8h16M15 12h5v4h-5a2 2 0 0 1 0-4Z"
+                      stroke="currentColor"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth="1.5"
+                    ></path>
                   </svg>
                   Budget Management
                 </div>
@@ -405,13 +484,15 @@ export default function Features() {
                   Stay in control of your spending
                 </h2>
                 <p className="text-gray-500 text-lg leading-relaxed mb-8">
-                  Set spending limits for your categories and keep track of how much you have used. Stay aware of your budget before you go over it.
+                  Set spending limits for your categories and keep track of how
+                  much you have used. Stay aware of your budget before you go
+                  over it.
                 </p>
                 <ul className="space-y-3">
                   <li className="flex items-start gap-3 text-sm text-gray-700">
                     <div
                       className="flex-shrink-0 h-5 w-5 rounded-full flex items-center justify-center mt-0.5"
-                      style={{ background: 'rgb(220, 252, 231)' }}
+                      style={{ background: "rgb(220, 252, 231)" }}
                     >
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
@@ -441,7 +522,7 @@ export default function Features() {
                   <li className="flex items-start gap-3 text-sm text-gray-700">
                     <div
                       className="flex-shrink-0 h-5 w-5 rounded-full flex items-center justify-center mt-0.5"
-                      style={{ background: 'rgb(220, 252, 231)' }}
+                      style={{ background: "rgb(220, 252, 231)" }}
                     >
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
@@ -471,7 +552,7 @@ export default function Features() {
                   <li className="flex items-start gap-3 text-sm text-gray-700">
                     <div
                       className="flex-shrink-0 h-5 w-5 rounded-full flex items-center justify-center mt-0.5"
-                      style={{ background: 'rgb(220, 252, 231)' }}
+                      style={{ background: "rgb(220, 252, 231)" }}
                     >
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
@@ -503,7 +584,7 @@ export default function Features() {
                   <a
                     className="inline-flex items-center gap-2 font-bold text-sm hover:gap-3 transition-all"
                     href="/dashboard"
-                    style={{ color: 'rgb(22, 163, 74)' }}
+                    style={{ color: "rgb(22, 163, 74)" }}
                   >
                     View dashboard{" "}
                     <svg
@@ -530,12 +611,15 @@ export default function Features() {
                 <div className="w-full max-w-sm mx-auto">
                   <div
                     className="rounded-3xl p-8 flex items-center justify-center"
-                    style={{ background: 'rgb(220, 252, 231)', minHeight: '280px' }}
+                    style={{
+                      background: "rgb(220, 252, 231)",
+                      minHeight: "280px",
+                    }}
                   >
                     <div className="text-center">
                       <div
                         className="h-24 w-24 rounded-3xl flex items-center justify-center mx-auto mb-6 shadow-lg"
-                        style={{ background: 'rgb(22, 163, 74)' }}
+                        style={{ background: "rgb(22, 163, 74)" }}
                       >
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
@@ -546,13 +630,25 @@ export default function Features() {
                           color="white"
                           className=""
                         >
-                    <path d="M4 7.5A2.5 2.5 0 0 1 6.5 5H20v14H6.5A2.5 2.5 0 0 1 4 16.5v-9Z" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.5"></path>
-       <path d="M4 8h16M15 12h5v4h-5a2 2 0 0 1 0-4Z" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.5"></path>
-                  </svg>
+                          <path
+                            d="M4 7.5A2.5 2.5 0 0 1 6.5 5H20v14H6.5A2.5 2.5 0 0 1 4 16.5v-9Z"
+                            stroke="currentColor"
+                            strokeLinecap="round"
+                            strokeLinejoin="round"
+                            strokeWidth="1.5"
+                          ></path>
+                          <path
+                            d="M4 8h16M15 12h5v4h-5a2 2 0 0 1 0-4Z"
+                            stroke="currentColor"
+                            strokeLinecap="round"
+                            strokeLinejoin="round"
+                            strokeWidth="1.5"
+                          ></path>
+                        </svg>
                       </div>
                       <p
                         className="font-black text-xl mb-2"
-                        style={{ color: 'rgb(22, 163, 74)' }}
+                        style={{ color: "rgb(22, 163, 74)" }}
                       >
                         Budget Management
                       </p>
@@ -572,7 +668,10 @@ export default function Features() {
               <div className="lg:order-2">
                 <div
                   className="inline-flex items-center gap-2 rounded-full px-3 py-1.5 text-xs font-black mb-5"
-                  style={{ background: 'rgb(243, 232, 255)', color: 'rgb(147, 51, 234)' }}
+                  style={{
+                    background: "rgb(243, 232, 255)",
+                    color: "rgb(147, 51, 234)",
+                  }}
                 >
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -583,9 +682,30 @@ export default function Features() {
                     color="#9333EA"
                     className=""
                   >
-                    <circle cx="12" cy="12" r="9" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.5"></circle>
-       <circle cx="12" cy="12" r="5" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.5"></circle>
-       <circle cx="12" cy="12" r="1.5" fill="currentColor"></circle>
+                    <circle
+                      cx="12"
+                      cy="12"
+                      r="9"
+                      stroke="currentColor"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth="1.5"
+                    ></circle>
+                    <circle
+                      cx="12"
+                      cy="12"
+                      r="5"
+                      stroke="currentColor"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth="1.5"
+                    ></circle>
+                    <circle
+                      cx="12"
+                      cy="12"
+                      r="1.5"
+                      fill="currentColor"
+                    ></circle>
                   </svg>
                   Savings Goals
                 </div>
@@ -593,13 +713,15 @@ export default function Features() {
                   Turn your savings goals into progress
                 </h2>
                 <p className="text-gray-500 text-lg leading-relaxed mb-8">
-                  Set a target, add contributions, and follow your progress. MoneyTrack makes it easier to stay focused on what you are saving for.
+                  Set a target, add contributions, and follow your progress.
+                  MoneyTrack makes it easier to stay focused on what you are
+                  saving for.
                 </p>
                 <ul className="space-y-3">
                   <li className="flex items-start gap-3 text-sm text-gray-700">
                     <div
                       className="flex-shrink-0 h-5 w-5 rounded-full flex items-center justify-center mt-0.5"
-                      style={{ background: 'rgb(243, 232, 255)' }}
+                      style={{ background: "rgb(243, 232, 255)" }}
                     >
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
@@ -629,7 +751,7 @@ export default function Features() {
                   <li className="flex items-start gap-3 text-sm text-gray-700">
                     <div
                       className="flex-shrink-0 h-5 w-5 rounded-full flex items-center justify-center mt-0.5"
-                      style={{ background: 'rgb(243, 232, 255)' }}
+                      style={{ background: "rgb(243, 232, 255)" }}
                     >
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
@@ -659,7 +781,7 @@ export default function Features() {
                   <li className="flex items-start gap-3 text-sm text-gray-700">
                     <div
                       className="flex-shrink-0 h-5 w-5 rounded-full flex items-center justify-center mt-0.5"
-                      style={{ background: 'rgb(243, 232, 255)' }}
+                      style={{ background: "rgb(243, 232, 255)" }}
                     >
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
@@ -691,7 +813,7 @@ export default function Features() {
                   <a
                     className="inline-flex items-center gap-2 font-bold text-sm hover:gap-3 transition-all"
                     href="/dashboard"
-                    style={{ color: 'rgb(147, 51, 234)' }}
+                    style={{ color: "rgb(147, 51, 234)" }}
                   >
                     View dashboard{" "}
                     <svg
@@ -718,12 +840,15 @@ export default function Features() {
                 <div className="w-full max-w-sm mx-auto">
                   <div
                     className="rounded-3xl p-8 flex items-center justify-center"
-                    style={{ background: 'rgb(243, 232, 255)', minHeight: '280px' }}
+                    style={{
+                      background: "rgb(243, 232, 255)",
+                      minHeight: "280px",
+                    }}
                   >
                     <div className="text-center">
                       <div
                         className="h-24 w-24 rounded-3xl flex items-center justify-center mx-auto mb-6 shadow-lg"
-                        style={{ background: 'rgb(147, 51, 234)' }}
+                        style={{ background: "rgb(147, 51, 234)" }}
                       >
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
@@ -734,14 +859,35 @@ export default function Features() {
                           color="white"
                           className=""
                         >
-                    <circle cx="12" cy="12" r="9" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.5"></circle>
-       <circle cx="12" cy="12" r="5" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.5"></circle>
-       <circle cx="12" cy="12" r="1.5" fill="currentColor"></circle>
-                  </svg>
+                          <circle
+                            cx="12"
+                            cy="12"
+                            r="9"
+                            stroke="currentColor"
+                            strokeLinecap="round"
+                            strokeLinejoin="round"
+                            strokeWidth="1.5"
+                          ></circle>
+                          <circle
+                            cx="12"
+                            cy="12"
+                            r="5"
+                            stroke="currentColor"
+                            strokeLinecap="round"
+                            strokeLinejoin="round"
+                            strokeWidth="1.5"
+                          ></circle>
+                          <circle
+                            cx="12"
+                            cy="12"
+                            r="1.5"
+                            fill="currentColor"
+                          ></circle>
+                        </svg>
                       </div>
                       <p
                         className="font-black text-xl mb-2"
-                        style={{ color: 'rgb(147, 51, 234)' }}
+                        style={{ color: "rgb(147, 51, 234)" }}
                       >
                         Savings Goals
                       </p>
@@ -762,7 +908,10 @@ export default function Features() {
               <div className="">
                 <div
                   className="inline-flex items-center gap-2 rounded-full px-3 py-1.5 text-xs font-black mb-5"
-                  style={{ background: 'rgb(254, 243, 199)', color: 'rgb(217, 119, 6)' }}
+                  style={{
+                    background: "rgb(254, 243, 199)",
+                    color: "rgb(217, 119, 6)",
+                  }}
                 >
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -773,8 +922,24 @@ export default function Features() {
                     color="#D97706"
                     className=""
                   >
-                    <rect x="3" y="3" width="18" height="18" rx="2" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.5"></rect>
-       <path d="M7 16v-3M12 16V8M17 16v-6" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.5"></path>
+                    <rect
+                      x="3"
+                      y="3"
+                      width="18"
+                      height="18"
+                      rx="2"
+                      stroke="currentColor"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth="1.5"
+                    ></rect>
+                    <path
+                      d="M7 16v-3M12 16V8M17 16v-6"
+                      stroke="currentColor"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth="1.5"
+                    ></path>
                   </svg>
                   Financial Overview
                 </div>
@@ -782,13 +947,14 @@ export default function Features() {
                   See your finances in one clear dashboard
                 </h2>
                 <p className="text-gray-500 text-lg leading-relaxed mb-8">
-                  Bring your balances, income, expenses, budgets, savings, and recent transactions together in one place.
+                  Bring your balances, income, expenses, budgets, savings, and
+                  recent transactions together in one place.
                 </p>
                 <ul className="space-y-3">
                   <li className="flex items-start gap-3 text-sm text-gray-700">
                     <div
                       className="flex-shrink-0 h-5 w-5 rounded-full flex items-center justify-center mt-0.5"
-                      style={{ background: 'rgb(254, 243, 199)' }}
+                      style={{ background: "rgb(254, 243, 199)" }}
                     >
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
@@ -818,7 +984,7 @@ export default function Features() {
                   <li className="flex items-start gap-3 text-sm text-gray-700">
                     <div
                       className="flex-shrink-0 h-5 w-5 rounded-full flex items-center justify-center mt-0.5"
-                      style={{ background: 'rgb(254, 243, 199)' }}
+                      style={{ background: "rgb(254, 243, 199)" }}
                     >
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
@@ -848,7 +1014,7 @@ export default function Features() {
                   <li className="flex items-start gap-3 text-sm text-gray-700">
                     <div
                       className="flex-shrink-0 h-5 w-5 rounded-full flex items-center justify-center mt-0.5"
-                      style={{ background: 'rgb(254, 243, 199)' }}
+                      style={{ background: "rgb(254, 243, 199)" }}
                     >
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
@@ -880,7 +1046,7 @@ export default function Features() {
                   <a
                     className="inline-flex items-center gap-2 font-bold text-sm hover:gap-3 transition-all"
                     href="/dashboard"
-                    style={{ color: 'rgb(217, 119, 6)' }}
+                    style={{ color: "rgb(217, 119, 6)" }}
                   >
                     View dashboard{" "}
                     <svg
@@ -907,12 +1073,15 @@ export default function Features() {
                 <div className="w-full max-w-sm mx-auto">
                   <div
                     className="rounded-3xl p-8 flex items-center justify-center"
-                    style={{ background: 'rgb(254, 243, 199)', minHeight: '280px' }}
+                    style={{
+                      background: "rgb(254, 243, 199)",
+                      minHeight: "280px",
+                    }}
                   >
                     <div className="text-center">
                       <div
                         className="h-24 w-24 rounded-3xl flex items-center justify-center mx-auto mb-6 shadow-lg"
-                        style={{ background: 'rgb(217, 119, 6)' }}
+                        style={{ background: "rgb(217, 119, 6)" }}
                       >
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
@@ -923,13 +1092,29 @@ export default function Features() {
                           color="white"
                           className=""
                         >
-                    <rect x="3" y="3" width="18" height="18" rx="2" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.5"></rect>
-       <path d="M7 16v-3M12 16V8M17 16v-6" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.5"></path>
-                  </svg>
+                          <rect
+                            x="3"
+                            y="3"
+                            width="18"
+                            height="18"
+                            rx="2"
+                            stroke="currentColor"
+                            strokeLinecap="round"
+                            strokeLinejoin="round"
+                            strokeWidth="1.5"
+                          ></rect>
+                          <path
+                            d="M7 16v-3M12 16V8M17 16v-6"
+                            stroke="currentColor"
+                            strokeLinecap="round"
+                            strokeLinejoin="round"
+                            strokeWidth="1.5"
+                          ></path>
+                        </svg>
                       </div>
                       <p
                         className="font-black text-xl mb-2"
-                        style={{ color: 'rgb(217, 119, 6)' }}
+                        style={{ color: "rgb(217, 119, 6)" }}
                       >
                         Financial Overview
                       </p>
