@@ -27,7 +27,7 @@ export default function Home() {
             Take control of your money
             <br />
             <span className="relative inline-block text-indigo-600">
-              with MoneyTrack.
+              with Kivo.
               <svg
                 className="absolute -bottom-2 left-0 w-full text-indigo-600"
                 viewBox="0 0 300 12"
