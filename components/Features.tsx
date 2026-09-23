@@ -265,7 +265,7 @@ export default function Features() {
                 </h2>
                 <p className="text-gray-500 text-lg leading-relaxed mb-8">
                   See your income, expenses, and spending patterns at a glance.
-                  MoneyTrack helps you understand your financial activity more
+                  Kivo helps you understand your financial activity more
                   clearly.
                 </p>
                 <ul className="space-y-3">
@@ -714,7 +714,7 @@ export default function Features() {
                 </h2>
                 <p className="text-gray-500 text-lg leading-relaxed mb-8">
                   Set a target, add contributions, and follow your progress.
-                  MoneyTrack makes it easier to stay focused on what you are
+                  Kivo makes it easier to stay focused on what you are
                   saving for.
                 </p>
                 <ul className="space-y-3">
