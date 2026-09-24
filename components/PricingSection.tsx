@@ -119,7 +119,7 @@ export default function Pricing() {
             <p className="text-sm font-medium text-gray-400">Pro</p>
 
             <h3 className="mt-2 text-2xl font-bold text-black">
-              ₦2,500{" "}
+              ₦4,500{" "}
               <span className="text-sm font-normal text-gray-500">
                 /month
               </span>
@@ -177,7 +177,7 @@ export default function Pricing() {
             <p className="text-sm font-medium text-gray-400">Premium</p>
 
             <h3 className="mt-2 text-2xl font-bold text-indigo-600">
-              ₦5,000{" "}
+              ₦9,000{" "}
               <span className="text-sm font-normal text-gray-500">
                 /month
               </span>
@@ -231,7 +231,7 @@ export default function Pricing() {
             <p className="text-sm font-medium text-gray-400">Premium+</p>
 
             <h3 className="mt-2 text-2xl font-bold text-black">
-              ₦10,000{" "}
+              ₦18,000{" "}
               <span className="text-sm font-normal text-gray-500">
                 /month
               </span>

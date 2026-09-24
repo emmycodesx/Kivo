@@ -37,7 +37,7 @@ export default function Footer() {
                 </a>
               </li>
               <li>
-                <a href="#" className="transition hover:text-blue-500">
+                <a href="#pricing" className="transition hover:text-blue-500">
                   Pricing
                 </a>
               </li>

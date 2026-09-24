@@ -12,8 +12,8 @@ export default function Features() {
                 <div
                   className="inline-flex items-center gap-2 rounded-full px-3 py-1.5 text-xs font-black mb-5"
                   style={{
-                    background: "rgb(237, 233, 254",
-                    color: "rgb(124, 58, 237",
+                    background: "rgb(237, 233, 255",
+                    color: "rgb(124, 58, 236",
                   }}
                 >
                   <svg
@@ -223,7 +223,7 @@ export default function Features() {
             </div>
           </div>
         </div>
-        <div className="py-20 bg-gray-50">
+        <div className="py-20">
           <div className="max-w-7xl px-4 sm:px-6 lg:px-8">
             <div className="grid lg:grid-cols-2 gap-14 items-center lg:flex-row-reverse">
               <div className="lg:order-2">
@@ -662,7 +662,7 @@ export default function Features() {
             </div>
           </div>
         </div>
-        <div className="py-20 bg-gray-50">
+        <div className="py-20">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="grid lg:grid-cols-2 gap-14 items-center lg:flex-row-reverse">
               <div className="lg:order-2">
