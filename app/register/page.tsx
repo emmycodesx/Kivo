@@ -11,6 +11,10 @@ export default function RegisterPage() {
   return (
     <main className="min-h-screen bg-zinc-50 px-4 py-8 pb-16">
       <div className="mx-auto flex w-full max-w-lg flex-col items-center justify-center">
+
+        {/* Register Card */}
+        <div className="w-full rounded-3xl border border-zinc-100 bg-white p-5 shadow-sm sm:p-8">
+          <form onSubmit={(e) => e.preventDefault()} className="space-y-4">
         {/* Logo + Heading */}
         <div className="mb-6 text-center">
           <div className="mb-3 inline-flex items-center justify-center">
@@ -30,10 +34,6 @@ export default function RegisterPage() {
             Take control of your finances, simply.
           </p>
         </div>
-
-        {/* Register Card */}
-        <div className="w-full rounded-3xl border border-zinc-100 bg-white p-5 shadow-sm sm:p-8">
-          <form onSubmit={(e) => e.preventDefault()} className="space-y-4">
             {/* First Name + Last Name */}
             <div className="grid grid-cols-2 gap-4">
               {/* First Name */}
@@ -276,7 +276,7 @@ export default function RegisterPage() {
               href="/login"
               className="font-semibold text-indigo-600 hover:underline"
             >
-              Sign in
+              Login
             </a>
           </p>
         </div>
