@@ -62,7 +62,7 @@ export default function Testimonials() {
               </p>
 
               <div className="mt-6 flex items-center gap-3 border-t border-gray-100 pt-5">
-                <div className="flex h-10 w-10 items-center justify-center rounded-full bg-black text-xs font-bold text-white">
+                <div className="flex h-10 w-10 items-center justify-center rounded-3xl shadow-lg text-xs font-bold text-white"  style={{ background: "rgb(147, 51, 234)" }}>
                   {testimonial.initials}
                 </div>
 

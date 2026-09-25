@@ -1,5 +1,5 @@
-"use client"
-import Link from "next/link"
+"use client";
+import Link from "next/link";
 
 export default function Footer() {
   return (
@@ -14,14 +14,12 @@ export default function Footer() {
                 className="h-9 w-9"
               />
 
-              <span className="text-xl font-bold">
-                Kivo
-              </span>
+              <span className="text-xl font-bold">Kivo</span>
             </div>
 
             <p className="mt-5 max-w-sm text-sm leading-6 text-gray-400">
-              Take control of your money. Track your spending,
-              plan your finances, and build better financial habits.
+              Take control of your money. Track your spending, plan your
+              finances, and build better financial habits.
             </p>
           </div>
 
@@ -42,7 +40,10 @@ export default function Footer() {
                 </a>
               </li>
               <li>
-                <a href="#how-it-works" className="transition hover:text-blue-500">
+                <a
+                  href="#how-it-works"
+                  className="transition hover:text-blue-500"
+                >
                   How It Works
                 </a>
               </li>
@@ -65,18 +66,17 @@ export default function Footer() {
                   About Us
                 </a>
               </li>
+
               <li>
                 <a href="#" className="transition hover:text-blue-500">
                   Contact
                 </a>
               </li>
               <li>
-                <a href="#" className="transition hover:text-blue-500">
-                  FAQ
-                </a>
-              </li>
-              <li>
-                <Link href="/privacy" className="transition hover:text-blue-500">
+                <Link
+                  href="/privacy"
+                  className="transition hover:text-blue-500"
+                >
                   Privacy Policy
                 </Link>
               </li>
@@ -195,4 +195,3 @@ export default function Footer() {
     </footer>
   );
 }
-

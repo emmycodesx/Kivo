@@ -92,12 +92,12 @@ export default function Navbar() {
             Testimonial
           </Link>
 
-          <a
-            href="#"
+          <Link
+            href="/#pricing"
             className="nav-link text-xs font-medium text-gray-600 transition hover:text-blue-700"
           >
-            FAQ
-          </a>
+            Pricing
+          </Link>
         </div>
 
         <div className="flex items-center gap-2">
