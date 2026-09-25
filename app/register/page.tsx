@@ -75,7 +75,7 @@ export default function RegisterPage() {
                     id="lastName"
                     name="lastName"
                     type="text"
-                    placeholder="Taiwo"
+                    placeholder="Adekola"
                     required
                     className="w-full rounded-xl border border-zinc-200 bg-white px-4 py-2.5 pl-10 text-sm text-zinc-900 outline-none transition-all duration-200 placeholder:text-zinc-400 focus:border-transparent focus:ring-2 focus:ring-indigo-600"
                   />
