@@ -1,5 +1,4 @@
 "use client";
-
 import Image from "next/image";
 import { useState } from "react";
 import { User, Mail, Phone, LockKeyhole, Eye, EyeOff } from "lucide-react";
@@ -11,29 +10,28 @@ export default function RegisterPage() {
   return (
     <main className="min-h-screen bg-zinc-50 px-4 py-8 pb-16">
       <div className="mx-auto flex w-full max-w-lg flex-col items-center justify-center">
-
         {/* Register Card */}
         <div className="w-full rounded-3xl border border-zinc-100 bg-white p-5 shadow-sm sm:p-8">
           <form onSubmit={(e) => e.preventDefault()} className="space-y-4">
-        {/* Logo + Heading */}
-        <div className="mb-6 text-center">
-          <div className="mb-3 inline-flex items-center justify-center">
-            <Image
-              src="/images/logo.png"
-              alt="Kivo"
-              width={52}
-              height={52}
-              priority
-              className="rounded-2xl"
-            />
-          </div>
+            {/* Logo + Heading */}
+            <div className="mb-6 text-center">
+              <div className="mb-3 inline-flex items-center justify-center">
+                <Image
+                  src="/images/logo.png"
+                  alt="Kivo"
+                  width={52}
+                  height={52}
+                  priority
+                  className="rounded-2xl"
+                />
+              </div>
 
-          <h1 className="text-2xl font-black text-zinc-900">Access Kivo</h1>
+              <h1 className="text-2xl font-black text-zinc-900">Access Kivo</h1>
 
-          <p className="mt-1 text-sm text-zinc-500">
-            Take control of your finances, simply.
-          </p>
-        </div>
+              <p className="mt-1 text-sm text-zinc-500">
+                Take control of your finances, simply.
+              </p>
+            </div>
             {/* First Name + Last Name */}
             <div className="grid grid-cols-2 gap-4">
               {/* First Name */}
@@ -284,3 +282,4 @@ export default function RegisterPage() {
     </main>
   );
 }
+

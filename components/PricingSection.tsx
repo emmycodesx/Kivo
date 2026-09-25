@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import Link from "next/link"
 
 export default function Pricing() {
   const [billingPeriod, setBillingPeriod] = useState<"monthly" | "yearly">(
@@ -150,13 +151,15 @@ export default function Pricing() {
                 <span>View spending journey</span>
               </li>
             </ul>
-
+           
+           <Link href="/register">
             <button
               type="button"
               className="mt-8 w-full rounded-xl border border-black/20 bg-transparent px-5 py-3 text-sm font-semibold text-zinc-700 transition-all duration-300 hover:border-blue-500 hover:text-blue-500"
             >
               Get Started
             </button>
+           </Link>
           </div>
 
           {/* PRO */}
@@ -205,13 +208,15 @@ export default function Pricing() {
                 <span>Priority Support</span>
               </li>
             </ul>
-
+            
+            <Link href="/register">
             <button
               type="button"
               className="mt-8 w-full rounded-xl border border-black/20 bg-transparent px-5 py-3 text-sm font-semibold text-zinc-700 transition-all duration-300 hover:border-blue-500 hover:text-blue-500"
             >
               Get Started
             </button>
+            </Link>
           </div>
 
           {/* PREMIUM */}
@@ -264,13 +269,15 @@ export default function Pricing() {
                 <span>Enhanced security</span>
               </li>
             </ul>
-
+            
+            <Link href="/register">
             <button
               type="button"
               className="mt-8 w-full rounded-xl bg-indigo-600 px-5 py-3 text-sm font-semibold text-white transition-all duration-300 hover:bg-indigo-700"
             >
               Get Started
             </button>
+            </Link>
           </div>
 
           {/* PREMIUM+ */}
@@ -319,13 +326,15 @@ export default function Pricing() {
                 <span>24/7 dedicated support</span>
               </li>
             </ul>
-
+            
+            <Link href="/register">
             <button
               type="button"
               className="mt-8 w-full rounded-xl border border-black/20 bg-transparent px-5 py-3 text-sm font-semibold text-zinc-700 transition-all duration-300 hover:border-blue-500 hover:text-blue-500"
             >
               Get Started
             </button>
+            </Link>
           </div>
         </div>
       </div>

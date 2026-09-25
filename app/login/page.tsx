@@ -2,7 +2,7 @@
 
 import Image from "next/image";
 import { useState } from "react";
-import { User, Mail, Phone, LockKeyhole, Eye, EyeOff } from "lucide-react";
+import {  Mail, LockKeyhole, Eye, EyeOff } from "lucide-react";
 
 export default function RegisterPage() {
   const [showPassword, setShowPassword] = useState(false);
