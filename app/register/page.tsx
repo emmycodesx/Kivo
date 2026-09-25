@@ -144,7 +144,7 @@ export default function RegisterPage() {
                   id="password"
                   name="password"
                   type={showPassword ? "text" : "password"}
-                  placeholder="Min. 8 characters"
+                  placeholder="12345678"
                   minLength={8}
                   required
                   className="w-full rounded-xl border border-zinc-200 bg-white px-4 py-2.5 pl-10 pr-11 text-sm text-zinc-900 outline-none transition-all duration-200 placeholder:text-zinc-400 focus:border-transparent focus:ring-2 focus:ring-indigo-600"
