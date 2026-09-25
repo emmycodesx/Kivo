@@ -103,14 +103,14 @@ export default function Navbar() {
         <div className="flex items-center gap-2">
           <a
             id="login-btn"
-            href="#"
+            href="/login"
             className="rounded-full px-4 py-2 text-xs font-medium text-gray-600 transition hover:text-indigo-600"
           >
             Log in
           </a>
 
           <a
-            href="#"
+            href="/register"
             className="rounded-full bg-indigo-600 px-4 py-2 text-xs font-medium text-white transition hover:bg-indigo-700"
           >
             Sign Up

@@ -13,7 +13,6 @@ export default function Footer() {
                 alt="MoneyTrack"
                 className="h-9 w-9"
               />
-
               <span className="text-xl font-bold">Kivo</span>
             </div>
 

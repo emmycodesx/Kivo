@@ -1,6 +1,31 @@
-"use client"
+"use client";
+
+import { useState } from "react";
 
 export default function Pricing() {
+  const [billingPeriod, setBillingPeriod] = useState<"monthly" | "yearly">(
+    "monthly",
+  );
+
+  const pricing = {
+    free: {
+      monthly: 0,
+      yearly: 0,
+    },
+    pro: {
+      monthly: 4500,
+      yearly: 43200,
+    },
+    premium: {
+      monthly: 9000,
+      yearly: 86400,
+    },
+    premiumPlus: {
+      monthly: 18000,
+      yearly: 172800,
+    },
+  };
+
   const checkIcon = (
     <div className="flex h-5 w-5 shrink-0 items-center justify-center rounded-full border border-blue-500">
       <svg
@@ -40,23 +65,43 @@ export default function Pricing() {
             with a plan that grows with you.
           </p>
 
+          {/* Billing Toggle */}
           <div className="mb-12 mt-4 flex items-center justify-center gap-3">
-            <button className="text-sm font-semibold text-zinc-700">
+            <button
+              type="button"
+              onClick={() => setBillingPeriod("monthly")}
+              className="text-sm font-semibold text-zinc-700"
+            >
               Monthly
             </button>
 
             <button
               type="button"
+              onClick={() =>
+                setBillingPeriod(
+                  billingPeriod === "monthly" ? "yearly" : "monthly",
+                )
+              }
               className="relative h-6 w-11 rounded-full bg-zinc-300 focus:outline-none"
               aria-label="Toggle billing period"
+              aria-pressed={billingPeriod === "yearly"}
             >
               <div
-                className="absolute top-1 h-4 w-4 rounded-full bg-indigo-600 shadow-sm"
-                style={{ transform: "translateX(2px)" }}
+                className="absolute top-1 h-4 w-4 rounded-full bg-indigo-600 shadow-sm transition-transform duration-200"
+                style={{
+                  transform:
+                    billingPeriod === "yearly"
+                      ? "translateX(24px)"
+                      : "translateX(2px)",
+                }}
               />
             </button>
 
-            <button className="flex items-center gap-1.5 text-sm font-semibold text-zinc-400 transition-colors">
+            <button
+              type="button"
+              onClick={() => setBillingPeriod("yearly")}
+              className="flex items-center gap-1.5 text-sm font-semibold text-zinc-400 transition-colors"
+            >
               Yearly
               <span className="rounded-full bg-indigo-600 px-1.5 py-0.5 text-[10px] font-extrabold text-white">
                 −20%
@@ -66,14 +111,13 @@ export default function Pricing() {
         </div>
 
         <div className="grid grid-cols-1 gap-6 lg:grid-cols-4">
+          {/* FREE */}
           <div className="relative flex flex-col rounded-xl border border-black/10 bg-zinc-100 p-9 transition duration-300 hover:-translate-y-1 hover:border-blue-500/30">
             <p className="text-sm font-medium text-gray-400">Free</p>
 
             <h3 className="mt-2 text-2xl font-bold text-black">
-              ₦0{" "}
-              <span className="text-sm font-normal text-gray-500">
-                /month
-              </span>
+              ₦{pricing.free[billingPeriod].toLocaleString()}{" "}
+              <span className="text-sm font-normal text-gray-500">/month</span>
             </h3>
 
             <p className="mt-3 text-xs font-medium text-zinc-600">
@@ -115,13 +159,14 @@ export default function Pricing() {
             </button>
           </div>
 
+          {/* PRO */}
           <div className="relative flex flex-col rounded-xl border border-black/10 bg-zinc-100 p-9 transition duration-300 hover:-translate-y-1 hover:border-blue-500/30">
             <p className="text-sm font-medium text-gray-400">Pro</p>
 
             <h3 className="mt-2 text-2xl font-bold text-black">
-              ₦4,500{" "}
+              ₦{pricing.pro[billingPeriod].toLocaleString()}{" "}
               <span className="text-sm font-normal text-gray-500">
-                /month
+                /{billingPeriod === "monthly" ? "month" : "year"}
               </span>
             </h3>
 
@@ -169,6 +214,7 @@ export default function Pricing() {
             </button>
           </div>
 
+          {/* PREMIUM */}
           <div className="relative flex flex-col rounded-xl bg-black p-9 transition duration-300 hover:-translate-y-1">
             <span className="absolute -top-4 left-1/2 -translate-x-1/2 rounded-full bg-blue-600 px-4 py-1.5 text-xs font-semibold text-white shadow-lg">
               Most Popular
@@ -177,9 +223,9 @@ export default function Pricing() {
             <p className="text-sm font-medium text-gray-400">Premium</p>
 
             <h3 className="mt-2 text-2xl font-bold text-indigo-600">
-              ₦9,000{" "}
+              ₦{pricing.premium[billingPeriod].toLocaleString()}{" "}
               <span className="text-sm font-normal text-gray-500">
-                /month
+                /{billingPeriod === "monthly" ? "month" : "year"}
               </span>
             </h3>
 
@@ -227,13 +273,14 @@ export default function Pricing() {
             </button>
           </div>
 
+          {/* PREMIUM+ */}
           <div className="relative flex flex-col rounded-xl border border-black/10 bg-zinc-100 p-9 transition duration-300 hover:-translate-y-1 hover:border-blue-500/30">
             <p className="text-sm font-medium text-gray-400">Premium+</p>
 
             <h3 className="mt-2 text-2xl font-bold text-black">
-              ₦18,000{" "}
+              ₦{pricing.premiumPlus[billingPeriod].toLocaleString()}{" "}
               <span className="text-sm font-normal text-gray-500">
-                /month
+                /{billingPeriod === "monthly" ? "month" : "year"}
               </span>
             </h3>
 
@@ -285,4 +332,3 @@ export default function Pricing() {
     </section>
   );
 }
-
