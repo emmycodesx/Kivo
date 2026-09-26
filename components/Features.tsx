@@ -144,7 +144,7 @@ export default function Features() {
                 <div className="mt-8">
                   <a
                     className="inline-flex items-center gap-2 font-bold text-sm hover:gap-3 transition-all"
-                    href="/dashboard"
+                    href="/register"
                     style={{ color: "rgb(124, 58, 237)" }}
                   >
                     View dashboard{" "}
@@ -363,7 +363,7 @@ export default function Features() {
                 <div className="mt-8">
                   <a
                     className="inline-flex items-center gap-2 font-bold text-sm hover:gap-3 transition-all"
-                    href="/dashboard"
+                    href="/register"
                     style={{ color: "rgb(37, 99, 235)" }}
                   >
                     View dashboard{" "}
@@ -583,7 +583,7 @@ export default function Features() {
                 <div className="mt-8">
                   <a
                     className="inline-flex items-center gap-2 font-bold text-sm hover:gap-3 transition-all"
-                    href="/dashboard"
+                    href="/register"
                     style={{ color: "rgb(22, 163, 74)" }}
                   >
                     View dashboard{" "}
@@ -812,7 +812,7 @@ export default function Features() {
                 <div className="mt-8">
                   <a
                     className="inline-flex items-center gap-2 font-bold text-sm hover:gap-3 transition-all"
-                    href="/dashboard"
+                    href="/register"
                     style={{ color: "rgb(147, 51, 234)" }}
                   >
                     View dashboard{" "}
@@ -1045,7 +1045,7 @@ export default function Features() {
                 <div className="mt-8">
                   <a
                     className="inline-flex items-center gap-2 font-bold text-sm hover:gap-3 transition-all"
-                    href="/dashboard"
+                    href="/register"
                     style={{ color: "rgb(217, 119, 6)" }}
                   >
                     View dashboard{" "}
