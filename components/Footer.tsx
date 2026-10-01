@@ -29,22 +29,22 @@ export default function Footer() {
 
             <ul className="mt-2 space-y-2 text-sm text-gray-400">
               <li>
-                <a href="#features" className="transition hover:text-blue-500">
+                <Link href="/#features" className="transition hover:text-blue-500">
                   Features
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="#pricing" className="transition hover:text-blue-500">
+                <Link href="/#pricing" className="transition hover:text-blue-500">
                   Pricing
-                </a>
+                </Link>
               </li>
               <li>
-                <a
-                  href="#how-it-works"
+                <Link
+                  href="/#how-it-works"
                   className="transition hover:text-blue-500"
                 >
                   How It Works
-                </a>
+                </Link>
               </li>
               <li>
                 <a href="/dashboard" className="transition hover:text-blue-500">

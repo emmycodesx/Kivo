@@ -14,16 +14,16 @@ export default function Pricing() {
       yearly: 0,
     },
     pro: {
-      monthly: 4500,
-      yearly: 43200,
+      monthly: 4000,
+      yearly: 38400,
     },
     premium: {
-      monthly: 9000,
-      yearly: 86400,
+      monthly: 8000,
+      yearly: 76800,
     },
     premiumPlus: {
-      monthly: 18000,
-      yearly: 172800,
+      monthly: 16000,
+      yearly: 153600,
     },
   };
 
